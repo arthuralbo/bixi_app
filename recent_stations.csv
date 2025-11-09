@@ -1,0 +1,1064 @@
+,station
+0,Milton / du Parc
+1,8e Avenue / 15e rue
+2,du Chardonneret / de la Volière
+3,Parc Howard (de l'Épée / de Liège)
+4,Gillespie / King Ouest
+5,Industriel / Dagenais O
+6,Clark / St-Viateur
+7,Ste-Catherine / Drummond
+8,Cégep André-Laurendeau (Lapierre)
+9,Métro Lasalle (de Rushbrooke / Caisse)
+10,de la Montagne / Sherbrooke
+11,Lanouette / de l'Église
+12,Shearer / Centre
+13,de Hampton / Somerled
+14,St-Philippe / St-Ambroise
+15,Parc de Turin (de Lanaudière / Jean-Talon)
+16,de Lanaudière / Laurier
+17,Prince-Arthur / du Parc
+18,St-Laurent / de Chambly
+19,Parc des Hirondelles (Bousquet / Patenaude)
+20,14e avenue / Jean-Talon
+21,15e Rue / Robin
+22,Métro Snowdon (Circle / Queen-Mary)
+23,Jeanne-Mance / Sherbrooke
+24,Sherbrooke / Jeanne-d'Arc
+25,de la Côte-Ste-Catherine / Davaar
+26,St-André / Ste-Catherine
+27,de Maisonneuve / Mansfield (sud)
+28,Montcalm / de Maisonneuve
+29,8e avenue / Dandurand
+30,Victoria / Bouchette
+31,St-Dominique / Napoléon
+32,Complexe Desjardins (St-Urbain / René-Lévesque)
+33,6e avenue / Wellington
+34,Mozart / Waverly
+35,St-Antoine / Jean-Paul Riopelle
+36,Parc Dixie (Dixie / 54e avenue)
+37,Campus MIL (Thérèse-Lavoie Roux / Outremont)
+38,Gare LaSalle (Highlands)
+39,INRS (Cartier O / Armand-Frappier)
+40,Élodie-Boucher / Samson
+41,Union / René-Lévesque
+42,Galt Ouest / Tétreault
+43,Métro Jarry (Berri / Jarry)
+44,Lévesque O / 91e Avenue
+45,Aylmer / Sherbrooke
+46,de Châteaubriand / Beaubien
+47,Darling / Sherbrooke
+48,St-Hubert / René-Levesque
+49,Ste-Catherine / de Bullion
+50,Parc Plage
+51,de Mentana / Marie-Anne
+52,Gary-Carter / St-Laurent
+53,Parc Montcalm (Parkway / Montcalm)
+54,de l'Hôtel-de-Ville / Rachel
+55,de Côme / Houel
+56,Larivière / du Bord-de-l'Eau
+57,Marquette / Laurier
+58,Mackay / Sherbrooke
+59,de Bullion / Laurier
+60,Guy / Sainte-Catherine
+61,Parc Lacharité (Latour / Forget)
+62,Édouard-Montpetit / Victoria
+63,Darveau / de Lyon
+64,Chambord / Rosemont
+65,Parc Garibaldi (Liénart / Bélanger)
+66,Dandurand / de Lorimier
+67,Métro Plamondon (de Kent / Victoria)
+68,Parc Hilda-Ramacière (de Bullion / Prince-Arthur)
+69,Métro Langelier (Langelier / Sherbrooke)
+70,Collège de Maisonneuve (Sherbrooke / Bourbonnière)
+71,d'Orléans / Masson
+72,Marquette / du Mont-Royal (sud)
+73,Wilson / Sherbrooke
+74,Laurier / St-Denis
+75,de Maisonneuve / Wood
+76,des Érables / Bélanger
+77,St-Joseph / 8e avenue Lachine
+78,Thérèse-Lavoix-Roux / Wiseman
+79,Parc du Pélican (2e avenue / St-Joseph)
+80,Alton-Goldbloom / Notre-Dame
+81,de Bordeaux / St-Zotique
+82,Métro Georges-Vanier (Terrasse Coursol / Canning)
+83,Péloquin / Fleury
+84,Ste-Famille / des Pins
+85,des Pins / St-Laurent
+86,Molson / Beaubien
+87,de Brébeuf / du Mont-Royal
+88,Sanguinet / de Maisonneuve
+89,Métro Viau (Pierre-de-Coubertin / Viau)
+90,Trenholme / Fielding
+91,St-Antoine / de la Montagne
+92,Lebrun / Notre-Dame
+93,de la Cathédrale / René-Lévesque
+94,Drolet / Marie-Anne
+95,U. de Sherbrooke (Pavillon de la vie étudiante - Voie 3)
+96,Queen / Wellington
+97,Gilford / Papineau
+98,Marie-Anne / Papineau
+99,Le Ber / Ste-Madeleine
+100,Messier / du Mont-Royal
+101,Le Royer / St-Laurent
+102,Bishop / Ste-Catherine
+103,Parc Armand-Bombardier (Perras / Armand-Bombardier)
+104,Beaudry / Sherbrooke
+105,Mackay / René-Lévesque
+106,Théâtre du Vieux-Terrebonne (St-Pierre / des Braves)
+107,De Bullion / Marie-Anne
+108,LaSalle / 37e avenue
+109,Métro Place Saint-Henri (Charlebois / St-Ferdinand)
+110,de Bordeaux / Masson
+111,Métro Parc  (Hutchison / Ogilvy)
+112,Bishop / Ste-Catherine
+113,Parc Benny (Benny / de Monkland)
+114,Parc Jenkins (Jenkins / Skaniatarati)
+115,Galt Ouest / McManamy
+116,Curé-Poirier / Joliette
+117,Vallières / St-Laurent
+118,du Champ-de-Mars / Gosford
+119,Sherbrooke / Benny
+120,Léa-Roback / Sir-Georges-Etienne-Cartier
+121,de Rio / de Bohème
+122,Rachel / de Brébeuf
+123,Marcil / Sherbrooke
+124,de Bordeaux / de Bellechasse
+125,de Bullion / Roy
+126,Fairmount / Hutchison
+127,St-Cuthbert / Clark
+128,Parc Wilfrid-Bastien (Lacordaire / des Galets)
+129,Métro Montmorency (de l'Avenir)
+130,Émile-Journault / Christophe-Colomb
+131,de Pierrefonds / Athéna
+132,5e avenue / Rosemont
+133,Mansfield / Sherbrooke
+134,Park Row O / Sherbrooke
+135,de la Sorbonne / du Rousillon
+136,Métro St-Michel (Shaughnessy / St-Michel)
+137,Parc des Gorilles (Beaubien / St-Urbain)
+138,Marquette / du Mont-Royal
+139,Tupper / du Fort
+140,Queen-Victoria / de Portland
+141,Henri-Julien / du Carmel
+142,de la Côte-des-Neiges / Remembrance
+143,Logan / Poupart
+144,Bourret / Victoria
+145,Jean-Brillant / Decelles
+146,Chambord / Fleury
+147,Métro Sauvé (Berri / Sauvé)
+148,Cégep de Sherbrooke (du Cégep / Terrill)
+149,St-Dominique / Bernard
+150,Dufault / Lesage
+151,Parc Hector-Toe-Blake (du Sussex / René-Lévesque)
+152,du Bas-du-Plateau-Ouimet / Ste-Rose
+153,de l'Hôtel-de-Ville / Villeneuve
+154,St-Denis / Chabanel
+155,St-Patrick / Briand
+156,Pierre-de-Coubertin / Aird
+157,Berri / Rachel
+158,2e avenue / Jean-Talon
+159,de Gaspé / Beaubien
+160,Ontario / Sicard
+161,Métro Peel (de Maisonneuve / Stanley)
+162,de la Commune / King
+163,Valois / Ste-Catherine
+164,University / Prince-Arthur
+165,Parc Gentilly Ouest (Belcourt / Bagot)
+166,Drummond / des-Canadiens-de-Montréal
+167,Émile-Duployé / Rachel
+168,16e avenue / St-Joseph
+169,Parc Nature du Cap-St-Jacques (Gouin O./ Pilon)
+170,Resther / du Mont-Royal
+171,Union / Ste-Catherine
+172,Chabot / du Mont-Royal
+173,du President-Kennedy / Union
+174,de Mortagne / de Montarville
+175,LaSalle / Godin
+176,Gilford / Parthenais
+177,St-Jacques / des Seigneurs
+178,Louis-Hébert / Bélanger
+179,Panet / de Maisonneuve
+180,Dorion / Ste-Catherine
+181,Fabrik8 (Waverly / Jean-Talon)
+182,Milton / Hutchison
+183,LaSalle / 90e avenue
+184,Duvernay / Charlevoix
+185,Marché Jean-Talon (Henri-Julien / Jean-Talon)
+186,U. de Sherbrooke (Pavillon Marie-Victorin - Voie 1)
+187,Métro Honoré-Beaugrand (Sherbrooke / Honoré-Beaugrand)
+188,Louisbourg / O'Brien
+189,Stationnement incitatif de Mortagne (Ampère)
+190,du Tricentenaire / Prince-Albert
+191,Parc de l'Hôtel-de-Ville (Ste-Julie / Laurendeau)
+192,Esther-Blondin / de Pierrefonds
+193,René-Lévesque / Berlioz
+194,Préfontaine / Marcel-Pépin
+195,de la Vérendrye / 75e avenue
+196,Parthenais / Larivière
+197,de Bordeaux / Jean-Talon
+198,Gloria / Dollard
+199,BIXI K5
+200,Métro Assomption (Chauveau / Assomption)
+201,Parc nature de l'Île-de-la-Visitation (Gouin / Bruchési)
+202,Henri-Julien / de Castelnau
+203,Berlioz / de l'Île des Soeurs
+204,Métro Outremont (Stuart / Van Horne)
+205,Queen / Wellington
+206,Métro Université de Montréal (Édouard-Montpetit / Louis-Collin)
+207,Centre ÉPIC (St-Zotique / 40e avenue)
+208,Fullum / Ontario
+209,Ste-Catherine / St-Clément
+210,de Callières / d'Auvergne
+211,Ryde / Charlevoix
+212,Parc d'Antioche (Place d'Antioche / St-Zotique)
+213,Parc Lalancette (de Rouen / Valois)
+214,Bourgeoys / Favard
+215,Wolfe / Robin
+216,des Érables / Rachel
+217,Hogan / Ontario
+218,des Érables / Laurier
+219,Cuvillier / de Chambly
+220,Stanley / René-Lévesque
+221,Casino de Montréal
+222,Métro Lionel-Groulx (St-Jacques / Atwater)
+223,Lionel-Groulx / Vinet
+224,Stanley / Sherbrooke
+225,Sewell / Roy
+226,des Récollets / McGill
+227,Marquette / des Carrières
+228,Grand Boulevard / de Terrebonne
+229,Lincoln / St-Marc
+230,La Fontaine / Panet
+231,Bennett / Ste-Catherine
+232,Parc St-Louis (St-Joseph / 34e avenue)
+233,CHSLD St-Michel (8e avenue / Jarry)
+234,Daniel-Johnson / Cartier O
+235,des Galeries d'Anjou / Bélanger
+236,Cavendish / Dr.-Frederick-Philips
+237,Travaux publics LaSalle (Cordner / Léger)
+238,Querbes / Bernard
+239,4e avenue / de Verdun
+240,J J Joubert / Champfleury
+241,St-Antoine / St-François-Xavier
+242,Ottawa / Young
+243,Hutchison / Prince-Arthur
+244,Place Valois (Valois / Ontario)
+245,du Séminaire / de la Montagne
+246,des Récollets / Fleury
+247,Canora / Cornwall
+248,Roland-Therrien / Louise
+249,University / Milton
+250,Hôpital Maisonneuve-Rosemont (Rosemont / Chatelain)
+251,Berri / Gilford
+252,Gascon / de Rouen
+253,2e avenue / Centrale
+254,McKenna / Édouard-Montpetit
+255,St-André / de Maisonneuve
+256,Louis-Hébert / St-Zotique
+257,29e avenue / de Bellechasse
+258,Plessis / René-Lévesque
+259,de la Côte St-Paul / St-Ambroise
+260,Cégep Édouard-Montpetit (de Normandie)
+261,Métro Jean-Talon (St-Vallier / Jean-Talon)
+262,St-Nicolas / Place d'Youville
+263,Parc Hôtel de Ville (de l'Hôtel-de-Ville / Principale)
+264,de l'Esplanade / Henri-Bourassa
+265,Jeanne-Mance / Laurier
+266,Fabre / Jean-Talon
+267,Boyer / Bélanger
+268,Wilderton  / Van Horne
+269,Metcalfe / de Maisonneuve (sud)
+270,Métro Beaubien (de St-Vallier / Beaubien)
+271,Curé-Labelle / 77e Avenue
+272,Parc Olympique - Biodôme (Pierre-de-Coubertin)
+273,Parc Villeray (Jarry / Christophe-Colomb)
+274,Parc Van Horne (de la Peltrie / de Westbury)
+275,Mairie d'arrondissement St-Laurent (Beaudet / Marcel-Laurin)
+276,du Parc-La Fontaine / Rachel
+277,Victoria Hall (Sherbrooke)
+278,Natatorium (LaSalle / Rolland)
+279,Parc Maisonneuve (Viau / Sherbrooke)
+280,Parc Jacques-Cartier (Marcil / Jacques-Cartier Sud)
+281,du Parc-La Fontaine / Duluth
+282,de la Commune / Nazareth
+283,Bloomfield / Van Horne
+284,Duluth  / St-Denis
+285,Parc Chopin (Dumouchel / Tessier)
+286,Cartier / Masson
+287,Brébeuf / Curé-Poirier
+288,de Castelnau / de Chateaubriand
+289,Place des Festivals (du Président-Kennedy / de Bleury)
+290,Collège Ahuntsic (St-Hubert / Émile-Journault)
+291,Aréna Martin-St-Louis (Sylvie / Lauzon)
+292,Guy / Barré
+293,de l'Épée / Laurier
+294,Parc St-Patrick (St-Patrick / St-Columban)
+295,Victoria / de Maisonneuve
+296,Beaucourt / St-Elzéar
+297,Marché de la Gare (Belvédère Sud / de la Gare)
+298,Leman / de Chateaubriand
+299,Parc Marlborough (Beauzèle / Robichaud)
+300,Cartier / Marie-Anne
+301,Gilford / de Brébeuf
+302,Parc St-Gabriel (Grand Trunk / Ropery)
+303,Laurier / de Brébeuf
+304,Lapierre / Serge
+305,Parc Leta-Graydon (Bouvier / Jacqueline-Sicotte)
+306,René-Lévesque / Papineau
+307,Parc Marquette (Nobert / Dollard)
+308,Parc de la Confédération (Fielding / West Hill)
+309,Drummond / de Maisonneuve
+310,Plessis / Ontario
+311,de la Renaissance / Honoré Mercier
+312,Métro Cadillac (Cadillac / Sherbrooke)
+313,Métro Longueuil - Université de Sherbrooke (du Terminus)
+314,St-Zotique / St-Urbain
+315,Mairie de St-Eustache (de l'Église / St-Louis)
+316,de Rouen / Lespérance
+317,Gare Lachine (Sir George Simpson / 48e avenue)
+318,Prince-Albert / St-Jean-Baptiste
+319,Mairie d'arrondissement de Pierrefonds-Roxboro (St-Léon / de Pierrefonds)
+320,Métro Beaudry (Beaudry / Ste-Catherine)
+321,10e Avenue / Masson
+322,Parc de Beauséjour (Gouin / Henri-d'Arles)
+323,Square Viger (Berri)
+324,de l'Hôtel-de-Ville / Ontario
+325,Fabre / St-Zotique
+326,Parc Molson (d'Iberville / Beaubien)
+327,André-Charpentier / René-Philippe
+328,Rosemont / Viau
+329,Aylmer / Ste-Catherine
+330,Garnier / Beaubien
+331,St-André / Ontario
+332,Lincoln / du Fort
+333,Métro de l'Église (Ross / de l'Église)
+334,Charles / Grand Boulevard
+335,Sanguinet / Ontario
+336,St-Dominique / Villeray
+337,Parc Ferland (Belleherbe / Albanel)
+338,Métro Édouard-Montpetit (Vincent-d'Indy / du Mont-Royal)
+339,Fabre / Laurier
+340,Laurier / Chabot
+341,Métro du Collège (Cartier / Décarie)
+342,Hodge / Laperrière
+343,Denault / Claire-Jolicoeur
+344,Richardson / Montmorency
+345,Churchill / Empire
+346,Édouard-Montpetit / de Stirling
+347,Sun Valley / de Sillery
+348,Hochelaga / de l'Assomption
+349,Ste-Catherine / St-Laurent
+350,Christophe-Colomb / Beaubien
+351,de Périgueux / Ampère
+352,Métro Henri-Bourassa (Henri-Bourassa / Millen)
+353,8e avenue / Notre-Dame Lachine
+354,26e avenue / Beaubien
+355,Louis-Hémon / Rosemont
+356,Lajeunesse / Villeray
+357,de Blois / des Grandes-Piles
+358,Hutchison / Beaubien
+359,Notre-Dame-de-Grâce / Décarie
+360,Parc Bariteau (Saint-Georges)
+361,Marché Jean-Talon (Casgrain / Shamrock)
+362,Parc Gabriel-Sagard (Jean-Talon / Sagard)
+363,de Rouen / Hogan
+364,Parc Beaubien Outremont (Stuart / St-Viateur)
+365,St-André / Laurier
+366,McTavish / Sherbrooke
+367,Hôpital Général Juif (de la Côte-Ste-Catherine / Légaré)
+368,Wellington Sud / Sanborn
+369,de Lisieux / Jean-Talon
+370,Parc Ottawa (de Belleville / Fleury)
+371,Messier / St-Joseph
+372,Dandurand / D'Iberville
+373,Parc D.-E.-Joyal (Édouard / Windsor)
+374,Atwater / Sherbrooke
+375,Holt / Fullum
+376,des Prairies / du Pacifique
+377,de Normanville / Everett
+378,Gilford / de la Roche
+379,Centre récréatif Édouard-Rivet (Notre-Dame / Lesage)
+380,Drolet / Gounod
+381,Desjardins / Ontario
+382,Ste-Hélène / Papineau
+383,Chomedey / de Maisonneuve
+384,d'Outremont / Ogilvy
+385,Maguire / Henri-Julien
+386,Métro Frontenac (Ontario / du Havre)
+387,de Chambly / Sherbrooke
+388,Regina / de Verdun
+389,Boyer / du Mont-Royal
+390,Jean-Rivard / du Cirque
+391,Chapleau / du Mont-Royal
+392,Métro Jarry (Lajeunesse / Jarry)
+393,St-Jacques / Vinet
+394,Gilford / St-Denis
+395,La Fontaine / Lyall
+396,Empire / Régent
+397,CHU Ste-Justine (de la Côte Ste-Catherine / Hudson)
+398,Parc Michel-Chartrand (Adoncour / du Lac)
+399,Parc Gordon (Desaulniers / Victoria)
+400,Place du Commerce
+401,Eadie / Galt
+402,Gare REM Deux-Montagnes (de Deux-Montagnes)
+403,Parc du Père-Marquette (de Bellechasse / de Lanaudière)
+404,Cégep du Vieux-Montréal (Ontario / de l'Hôtel-de-Ville)
+405,de la Montagne / Notre-Dame
+406,Parc Ernest-Rouleau (Gouin)
+407,Letourneux / Ste-Catherine
+408,Papineau / Jean-Talon
+409,des Nénuphars / du Bord-de-l'Eau
+410,Industriel / Louis-J.-Lafortune
+411,St-Joseph / 21e avenue Lachine
+412,Duke / Nazareth
+413,de Lanaudière / Marie-Anne
+414,McGill / Wellington
+415,Hamel / Sauriol
+416,Gare Montpellier (Muir / de la Côte-Vertu)
+417,Clark / Rachel
+418,Clark / Fleury
+419,Ontario / Poupart
+420,de Chambly / de Rouen
+421,Marquette / du Coteau-Rouge
+422,Keller / Cousineau
+423,Parc St-Claude (7e Avenue / 8e rue)
+424,Fullum / Sherbrooke
+425,Dorion / Ontario
+426,de Léry / Sherbrooke
+427,Jean-Talon / de l'Épée
+428,Bernard / Jeanne-Mance
+429,Beurling / Godin
+430,Cégep Marie-Victorin
+431,Parthenais / du Mont-Royal
+432,Mozart / St-Laurent
+433,de la Commune / St-Sulpice
+434,6e avenue / Villeray
+435,de Gentilly / St-Jean
+436,Métro Rosemont (de St-Vallier / Rosemont)
+437,St-Grégoire / Christophe-Colomb
+438,St-Hubert / de Maisonneuve (nord)
+439,Peel / Notre-Dame
+440,Bourbonnière / du Mont-Royal
+441,Hudson / Goyer
+442,Métro Côte-des-Neiges (Jean-Brillant / de la Côte-des-Neiges)
+443,Pie-XII / Beauséjour
+444,d'Iberville / Perrault
+445,de Mentana / du Mont-Royal
+446,Métro Vendôme  (Northcliffe / de Maisonneuve)
+447,Garnier / Villeray
+448,Gare Ste-Dorothée (Hector-Nadon / du Chemin-de-Fer)
+449,Parc Boisé des Moissons (25e Avenue / 23e Avenue)
+450,Workman / Vinet
+451,Clark / de l'Arcade
+452,Terminus Ste-Julie (Armand-Frappier)
+453,Hôpital Santa Cabrini (de Pontoise / d'Évreux)
+454,Villeneuve / du Parc
+455,Parc Summerlea (53e avenue / St-Joseph)
+456,Parc du Centenaire (Grand-Moulin / du Lac)
+457,Ste-Émilie / Sir-Georges-Etienne-Cartier
+458,Maguire / St-Laurent
+459,Hôtel-de-Ville / Viger
+460,Métro St-Michel (10e avenue / Shaughnessy)
+461,de Maisonneuve / Aylmer (ouest)
+462,Renaud / Vallières
+463,André / de Rotterdam
+464,du Havre / de Rouen
+465,Logan / Lafayette
+466,10e Avenue Nord / King Est
+467,Durocher / Prince-Arthur
+468,Aréna Rodrigue-Gilbert (du Tricentenaire / de Montigny)
+469,Parc du Pélican (1ère avenue / Masson)
+470,Montcalm / Ontario
+471,St-Charles / Grant
+472,Parc Félix-Leclerc (François-Boivin / St-Zotique)
+473,St-Dominique / St-Viateur
+474,Simard / Riverside
+475,des Bassins / Rioux
+476,Ottawa / William
+477,Bibliothèque du Vieux-St-Laurent (de l'Église / Filiatrault)
+478,Place des Montréalaises (St-Antoine)
+479,Victoria / 39e avenue
+480,Parc Émilie-Gamelin (St-Hubert / de Maisonneuve sud)
+481,7e avenue / St-Joseph
+482,St-Dominique / Gounod
+483,St-Alexandre / Ste-Catherine
+484,Mozart / Drolet
+485,HEC (Decelles / Jean-Brillant)
+486,15e avenue / Laurier
+487,U. Concordia - Campus Loyola (Sherbrooke / West Broadway)
+488,Metcalfe / René-Lévesque
+489,Ste-Claire / Baldwin
+490,Gagne / LaSalle
+491,Parc du Bois-Franc (de l'Équateur / des Andes)
+492,Lorne / Prince-Arthur
+493,de l'Esplanade / Bernard
+494,Henri-Julien / de Bellechasse
+495,Métro Champ-de-Mars (Viger / Sanguinet)
+496,Hillside / Ste-Catherine
+497,Hôtel de Ville (Chomedey / Cardinal)
+498,du Fort Saint-Louis / de la Perrière
+499,Gare Montréal-Ouest (Coffee / Elmhurst)
+500,St-Dominique / de Bellechasse
+501,Durocher / Bernard
+502,Bibliothèque Jean-Corbeil (Goncourt / Place Montrichard)
+503,Hochelaga / Chapleau
+504,Jeanne-d'Arc / Ontario
+505,Beatty / de Verdun
+506,du Square Saint-Louis / Laval
+507,Clanranald / de la Côte-St-Luc
+508,Pierce / Ste-Catherine
+509,St-Joseph / Lamoureux
+510,Parc St-Laurent (Dutrisac)
+511,Collège André-Grasset (Crémazie / Christophe-Colomb)
+512,Murray / du Conseil
+513,Émile-Duployé / Sherbrooke
+514,Marquette / Fleury
+515,de la Côte-Ste-Catherine / Decelles
+516,de la Commune / Berri
+517,Bercy / Rachel
+518,Fernand-Lafontaine / Adoncour
+519,Smith / Peel
+520,La Ronde
+521,26e avenue / Bélanger
+522,Hutchison / Van Horne
+523,de Bellechasse / de St-Vallier
+524,St-Timothée / René-Lévesque
+525,19e avenue / St-Zotique
+526,Parc Georges St-Pierre (Oxford / Upper Lachine)
+527,Beauregard / La Salle
+528,de la Commune / Place Jacques-Cartier
+529,41e avenue / Rosemont
+530,Parc Ignace-Bourget (de Montmagny / Newman)
+531,Dudemaine / James-Morrice
+532,Bourbonnière / Hochelaga
+533,Nielsen / Windsor
+534,Richmond / des Bassins
+535,Henri-Julien / Duluth
+536,Beaubien / 8e avenue
+537,Métro de la Savane (de Sorel / Labarre)
+538,Georges-Vanier / Notre-Dame
+539,Centre des loisirs (Tassé / Grenet)
+540,Ball / Bloomfield
+541,Montgolfier / Notre-Dame
+542,de l'Ontario / Walton
+543,Ste-Catherine / St-Mathieu
+544,McManamy / Belvédère Sud
+545,Place Charles-Le Moyne (St-Charles)
+546,de Bordeaux / Sherbrooke
+547,Parc St-Laurent (Salk / Thomas-Chapais)
+548,André-Laurendeau / Rachel
+549,La Fontaine / Alexandre-DeSève
+550,Liébert / Hochelaga
+551,des Pins / Hutchison
+552,Jacques-Casault / Pierre-Dupaigne
+553,1ère avenue / Rosemont
+554,St-André / Rachel
+555,Gare Ste-Rose (Ste-Rose E)
+556,Métro Lucien-L'Allier (Lucien l'Allier / Argyle)
+557,de Mortagne / Jean-Neveu
+558,Jeanne-Mance / René-Lévesque
+559,de Grenoble / de Cassis
+560,Louis-Hébert / Beaubien
+561,Jacques-Le Ber / de la Pointe Nord
+562,de la Commune / McGill
+563,Garnier / du Mont-Royal
+564,de Kent / de la Côte-des-Neiges
+565,St-Dominique / Duluth
+566,Bennett / Pierre-de-Coubertin
+567,CHSLD Joseph-François-Perrault (St-Michel / Everett)
+568,St-Dominique / Jean-Talon
+569,de l'Ancienne-Carrière / de Kingston
+570,Notre-Dame / St-Vincent
+571,Parc Joyce (Rockland / Lajoie)
+572,des Écores / de Bellechasse
+573,Terminus Le Carrefour (Terry-Fox / Le Carrefour)
+574,Clark / Evans
+575,Lucien-L'Allier / St-Jacques
+576,Quai Yvon-Julien (Marie-Victorin / de Montarville)
+577,Durocher / Sherbrooke
+578,Bourget / Notre-Dame
+579,Lebrun / Bédard
+580,Métro St-Laurent (de Maisonneuve / St-Laurent)
+581,des Récollets / Martial
+582,Cartier / Beaubien
+583,Parc St-Henri (Laporte / Guay)
+584,Roy / St-Denis
+585,Mackay / de Maisonneuve
+586,Calixa-Lavallée / Rachel
+587,Marché Atwater
+588,Émile-Journault / Berri
+589,Léonard-de-Vinci / Villeray
+590,de Hampton / de Monkland
+591,Roy / St-André
+592,Parc Chénier (Albert / Pie-XII)
+593,de Gaspé / de Liège
+594,Gare d'autocars de Montréal (Berri / Ontario)
+595,Wilfrid-Pelletier / Joseph-Renaud
+596,Viger / St-Alexandre
+597,Gare du Ruisseau (Dutrisac / Henri-Bourassa)
+598,Métro Crémazie (Crémazie / Lajeunesse)
+599,20e avenue / de Bellechasse
+600,Alexandre-DeSève / Ste-Catherine
+601,Parc Olympia (Guy / 11e Avenue)
+602,de Chambly / Rachel
+603,Casgrain / Maguire
+604,Guizot / St-Laurent
+605,Parc Loyola (Doherty / Somerled)
+606,des Jockeys / Décarie
+607,Métro Square-Victoria-OACI (St-Jacques)
+608,Argyle / Bannantyne
+609,Métro Jolicoeur (de Sève / Drake)
+610,Parc Lucien-Blanchard (de la Pointe / Cabana)
+611,Lambert-Closse / de Maisonneuve
+612,St-Germain / Hochelaga
+613,St-Hubert / Duluth
+614,Ste-Catherine / Sanguinet
+615,La Fontaine / Bossuet
+616,Métro Acadie (de l'Acadie / Beaumont)
+617,Parc du Père-Marquette (de Bellechasse)
+618,Pratt / Bates
+619,de Darlington / Van Horne
+620,Metcalfe / de Maisonneuve
+621,de Bordeaux / Rachel
+622,Grenet / Poirier
+623,Parc Labelle (LaSalle / Henri-Duhamel)
+624,McLynn / Plamondon
+625,Principale / Jean-Duceppe
+626,Berri / Laurier
+627,22e avenue / Everett
+628,Grey / Sherbrooke
+629,Graham / Kindersley
+630,Chabanel / de l'Esplanade
+631,Cartier / Bélanger
+632,29e avenue / St-Zotique
+633,St-Dominique / du Mont-Royal
+634,Monk / Jacques-Hertel
+635,Parc St-Paul (De Champigny / Angers)
+636,de Gaspé / St-Viateur
+637,Fredmir / de Pierrefonds
+638,University / des Pins
+639,Elmwood / Mc Dougall
+640,Jean-Langlois / Fullum
+641,Garnier / St-Grégoire
+642,Ste-Hélène / Curé-Poirier
+643,Parc de Roxboro (11e Avenue / 9e Rue)
+644,Parc Eusèbe-Ménard (Gouin / St-Vital)
+645,Parc Atwater (Saint-Charles)
+646,7e Avenue Sud / King Est
+647,Métro Place-d'Armes (St-Urbain / Viger)
+648,Parc Jarry (Dautry / de Lorne)
+649,CHSLD Robert Cliche (de Bellechasse / 16e avenue)
+650,Parc Maisonneuve - Chalet (Accès Sherbrooke)
+651,de la Côte St-Antoine / Argyle
+652,de Gentilly / Roland-Therrien
+653,Hélène-Baillargeon / St-Denis
+654,Boyer / Everett
+655,Notre-Dame / St-Martin
+656,Francis / Fleury
+657,Armand-Frappier / Louis-R.-Renaud
+658,Thomas-Chaplais / Notre-Dame
+659,de Monaco / du Souvenir
+660,de la Commune / des Soeurs-Grises
+661,du Rosaire / St-Hubert
+662,Ste-Famille / Shebrooke
+663,McGill / Place d'Youville
+664,Villeneuve / St-Dominique
+665,6e Avenue / Bélanger
+666,Faribault / de Chambly
+667,Parc Père-Vimont (de Palerme / Marc)
+668,Lincoln / Lambert-Closse
+669,de Maisonneuve / Aylmer (est)
+670,Old Orchard / de Monkland
+671,MacDonald / Queen-Mary
+672,O'Brien / Poirier
+673,Parc Jean-Drapeau (Chemin MacDonald)
+674,Gare Centrale (de la Gauchetière / Mansfield)
+675,Parc Henri-Dunant (Léger / Henri-Dunant)
+676,Louis-Hémon / Beaubien
+677,Parc des Vétérans (des Vétérans / Broadway)
+678,Clark / Laurier
+679,Ouimet / Goineau
+680,Parc Noel-Nord (Toupin / Keller)
+681,Métro Pie-IX (Pierre-de-Coubertin / Desjardins)
+682,St-Dominique / St-Viateur (nord)
+683,St-Jean-Baptiste / René-Lévesque
+684,Harvard / de Monkland
+685,Laval / Rachel
+686,St-Jean-Baptiste / René-Lévesque
+687,Fleury / Sackville
+688,Parc des Orioles (Le Corbusier / des Orioles)
+689,Peel / Ottawa
+690,Gordon / Wellington
+691,Aylwin / Ontario
+692,de la Côte-St-Antoine / Royal
+693,de Batiscan / Hameury
+694,Ste-Catherine / Drummond
+695,Métro D'Iberville (Louis-Hébert / Jean-Talon)
+696,Métro Place-des-Arts (du Président-Kennedy / Jeanne-Mance)
+697,Langelier / Marie-Victorin
+698,Crescent / de Maisonneuve
+699,Ste-Catherine / St-Marc
+700,Fabre / Villeray
+701,Calixa-Lavallée / Sherbrooke
+702,Galt Ouest / Belvédère Sud
+703,Plage du Parc-Nature du Cap Saint-Jacques (de la Plage / Service)
+704,Parc Ludger-Duvernay (St-André / St-Hubert)
+705,Stationnement incitatif de Montarville (de Montarville)
+706,9e avenue / Masson
+707,Basile-Routhier / Chabanel
+708,Parc Adrien-Cambron (7e Avenue Nord / Zéphirin-Cormier)
+709,William / King
+710,Parc de Montréal-Est (Notre-Dame / David)
+711,Parc Fernand-Bouffard (Duvernay / Bertrand)
+712,Bégin / du Parc
+713,Industriel / Primeau
+714,La Tour de Montréal (Pierre-de-Coubertin / Bennett)
+715,St-Dominique / St-Zotique
+716,de Normanville / Beaubien
+717,Ottawa / du Séminaire
+718,Lajeunesse / de Liège
+719,Garnier / Gilford
+720,Carrefour Angrignon (Angrignon / Newman)
+721,Ropery / Augustin-Cantin
+722,Métro Angrignon (Lamont / des Trinitaires)
+723,Grand Boulevard / Sherbrooke
+724,Parc Clair Matin (St-Laurent)
+725,de Courcelle / Acorn
+726,Mackenzie / Westbury
+727,3e avenue / Bannantyne
+728,Bibliothèque d'Ahuntsic (Lajeunesse / Fleury)
+729,Faillon / St-Denis
+730,St-Dominique / Laurier
+731,Irwin / Allard
+732,Molson / William-Tremblay
+733,Métro Bonaventure (de la Gauchetière / Mansfield)
+734,Union / Ste-Catherine
+735,Masson / Molson
+736,Turgeon / Notre-Dame
+737,Boyer / de Bellechasse
+738,Milton / Durocher
+739,McCulloch / de la Côte Ste-Catherine
+740,Mairie d'arrondissement LaSalle (Dupras / Jeannette)
+741,Everett / Garnier
+742,Parc Pratt (Dunlop / Van Horne)
+743,Hurteau / Springland
+744,St-Urbain / Laurier
+745,Frontenac / Ste-Catherine
+746,de la Porte de Québec / St-André
+747,Drolet / St-Zotique
+748,Notre-Dame / St-Gabriel
+749,Waverly / Bernard
+750,Métro Papineau (Dorion / De Maisonneuve)
+751,Sherbrooke / Frontenac
+752,Duluth / de l'Esplanade
+753,Parc LaSalle (10e avenue / Victoria)
+754,Métro Villa-Maria (de Monkland / Décarie)
+755,Drummond / Sherbrooke
+756,St-Charles / Montarville
+757,de Maisonneuve / Greene
+758,Laird / Glencoe
+759,Fortune / Wellington
+760,Hamilton / Jolicoeur
+761,Marie-Anne / Christophe-Colomb
+762,de St-Firmin / Sauvé
+763,Quai de la navette fluviale
+764,Métro Joliette  (Hochelaga / Joliette)
+765,Bassin Peel (Smith / de la Commune)
+766,St-Denis / Ste-Catherine
+767,Adam / d'Orleans
+768,Roland-Therrien / Jacques-Cartier
+769,Mairie d'arrondissement Montréal-Nord (Hébert / de Charleroi)
+770,de la Peltrie / de la Côte-des-Neiges
+771,LaSalle / Crawford
+772,Mackay / Ste-Catherine
+773,Marmier / St-Denis
+774,Lamarre / Lavallée
+775,Parc Kirkland (des Érables / Boyer)
+776,Victoria / 18e avenue Lachine
+777,Ann / Wellington
+778,Augustin-Cantin / Shearer
+779,7e avenue / Masson
+780,du Mont-Royal / Augustin-Frigon
+781,Terminus Newman (Airlie / Lafleur)
+782,Campus MIL (Outremont / Thérèse-Lavoie Roux)
+783,Chauveau / Assomption
+784,Waverly / Beaumont
+785,St-Dominique / Rachel
+786,de la Gauchetière / St-Alexandre
+787,Desaulniers / Marquette
+788,Collège de Rosemont (Beaubien / 15e avenue)
+789,St-Timothée / Ste-Catherine
+790,de Maisonneuve / Fullum
+791,des Ormeaux / de Grosbois
+792,Chabanel / du Parc
+793,Marcil / King Ouest
+794,LaRocque / de Mère-Teresa
+795,Jean-d’Estrées / Notre-Dame
+796,Ste-Famille / Sherbrooke
+797,St-Sylvestre / St-Charles
+798,Léon / Donck
+799,Lanaudière / Bélanger
+800,Parc Le Boutillier (Eliot)
+801,Gare St-Michel / Montréal-Nord (Pie-IX / 56e)
+802,Marie / de Mont-Royal
+803,Clark / Prince-Arthur
+804,de Maisonneuve / Mansfield (sud-est)
+805,du Souvenir / de l'Avenir
+806,Robert-Bourassa / Ste-Catherine
+807,Gordon / de Verdun
+808,Bourget / St-Jacques
+809,5e avenue / Masson
+810,Parc Maurice-Bélanger (Hébert / Denommée)
+811,St-Laurent / Joliette
+812,Parc de Dieppe (Pierre-Dupuy)
+813,de Gaspé / Dante
+814,Berri / de Maisonneuve
+815,de Maisonneuve / Mansfield (nord)
+816,Parc du Mail (Bois de Coulonges / du Mail)
+817,Métro Cartier (des Laurentides)
+818,St-André /  Cherrier
+819,Métro Côte-Ste-Catherine (Beaucourt / de la Côte-Ste-Catherine)
+820,Parc Notre-Dame (Galipeau / Dufferin)
+821,Gauthier / Parthenais
+822,Dufresne / Ontario
+823,Marché St-Jacques (Atateken)
+824,Cartier / Dandurand
+825,Messier / Rachel
+826,Chabot / Villeray
+827,1ère avenue / Jean-Talon
+828,Parc Ignace-Bourget (de Montanagny / Newman)
+829,Marie-Anne / St-Hubert
+830,Crescent / René-Lévesque
+831,Greene / Workman
+832,Hôpital Notre-Dame (Alexandre-DeSève)
+833,de Gaspé / Villeray
+834,St-Jean / Guillaume
+835,Jeanne-Mance / Beaubien
+836,de Chateaubriand / Jarry
+837,Robert-Bourassa / St-Maurice
+838,St-Antoine / 19e avenue
+839,Bel-Air / St-Antoine
+840,Métro Laurier (Berri / St-Joseph)
+841,Plymouth / Chem.Eden
+842,de Monkland / Girouard
+843,Métro Monk (Allard / Briand)
+844,Dorion / Gauthier
+845,Dollard / Bernard
+846,Paré / Mountain Sights
+847,Brittany / Ainsley
+848,Parc Marguerite-Bourgeoys (Liverpool / Wellington)
+849,Métro Sherbrooke (de Rigaud / Berri)
+850,Tolhurst / Fleury
+851,Métro Charlevoix (Centre / Charlevoix)
+852,Métro Champs-de-Mars (Viger / Sanguinet)
+853,Parc MacDonald (Clanranald / Isabella)
+854,Laval / du Mont-Royal
+855,Souligny / Desmarteau
+856,Aylmer / Prince-Arthur
+857,de Lanaudière / Rosemont
+858,Notre-Dame-de-Grâce / Westmount
+859,Parc J.-Arthur-Champagne (de Chambly / du Mont-Royal)
+860,Dollard / Van Horne
+861,Pierre-de-Coubertin / Langelier
+862,35e avenue / Beaubien
+863,Saint-Rémi / Valois
+864,Parc Hébert (Colbert / Provencher)
+865,St-Hubert / Laurier
+866,Charles-Biddle / Atwater
+867,Pierre-Péladeau / du Centropolis
+868,Parc Jarry (Gary-Carter)
+869,Bishop / de Maisonneuve
+870,Le Corbusier / St-Martin O
+871,Complexe Aquatique Saint-Eustache (Arthur-Sauvé)
+872,de Gaspé / Fairmount
+873,3e avenue / Wellington
+874,Bennett / Ontario
+875,Henri-Julien / Laurier
+876,William / Robert-Bourassa
+877,Parc Chamberland (Dorais / de l'Église)
+878,Parc St-Sacrement (des Seigneurs / St-Sacrement)
+879,Cégep Gérald-Godin (Gouin)
+880,Cité des Arts du Cirque (Paul Boutet / Jarry)
+881,Duchesneau / de Marseille
+882,Parc Nicolas-Tillemont (des Érables / Villeray)
+883,Fullum / Marie-Anne
+884,des Jacinthes / des Nénuphars
+885,Waverly / St-Viateur
+886,Parc Dakin (Kenilworth / Morrison)
+887,Jeanne-Mance / St-Martin O
+888,Parc Honoré-Mercier (Notre-Dame / Liébert)
+889,Parc Chenier (de l'Aréna / Chenier)
+890,des Ormeaux / Mathieu
+891,Juliette / Lise
+892,Wellington Nord / Meadow
+893,de St-Firmin / Fleury
+894,Letourneux / Hochelaga
+895,Papineau / Émile-Journault
+896,Parc des Rapides (LaSalle / 6e avenue)
+897,Parc Aimé-Léonard (Gouin / Ste-Gertrude)
+898,Logan / Tiffin
+899,Bois-de-Boulogne / Henri-Bourassa
+900,de Maisonneuve / de Bleury
+901,de la Concorde / Le Corbusier
+902,Clark / Guizot
+903,Moïse-Picard / du Mont-Royal
+904,Parc Jeanne-Mance (monument sir George-Étienne-Cartier)
+905,Ste-Rose E / Soubirous
+906,de l'Hôtel-de-Ville / Sherbrooke
+907,de Kent / Hudson
+908,Hingston / de Monkland
+909,BAnQ (Berri)
+910,Terminus de bus EXO (Côte de Terrebonne)
+911,du Canal / McLaughlin
+912,de Bordeaux / St-Joseph
+913,Parc Laurier (Laurier / Dubuc)
+914,Parc Beaulac (Élizabeth)
+915,Jeanne-Mance / St-Viateur
+916,Bibliothèque Guy-Bélisle (Arthur-Sauvé / de la Grande-Côte)
+917,Viger / Chenneville
+918,12e avenue / St-Zotique
+919,de l'Esplanade / Marie-Anne
+920,de Lanaudière / du Mont-Royal
+921,Melville / de Maisonneuve
+922,Cathcart / McGill College
+923,Clark / de Liège
+924,Métro Préfontaine (Moreau / Hochelaga)
+925,de Chenonceau / Chomedey
+926,Montarville / Beaubien
+927,du Mont-Royal / Clark
+928,Newman / Léger
+929,Gauthier / de Lorimier
+930,de la Roche / Bélanger
+931,du Parc-La Fontaine / Roy
+932,Melrose / de Verdun
+933,Montmorency / Legrand
+934,Parc Jean-Paul Beauchemin (15e Avenue / du Lac)
+935,Chambord / Gilford
+936,Boyer / St-Zotique
+937,City Councillors / du President-Kennedy
+938,Parc Charleroi (Alfred / Louis-Francoeur)
+939,Guizot / St-Denis
+940,Cartier / Rosemont
+941,Canning / Notre-Dame
+942,du Souvenir / Le Corbusier
+943,Beauregard / le Carrefour
+944,de Laprairie / Centre
+945,Gare Longueuil-Saint-Hubert (de l'Aéroport)
+946,Dézéry / Ontario
+947,Mayfield / St-Martin O
+948,Gare Vimont (Bellerose O)
+949,Parc Stoney-Point (St-Joseph / 47e avenue)
+950,Thibault / d'Amay
+951,Egan / Laurendeau
+952,de Bordeaux / Gilford
+953,Aréna Chaumont (Chaumont / des Ormeaux)
+954,Jean-Paul-Vincent / Adoncour
+955,Place Ville-Marie (Robert-Bourassa / René-Lévesque)
+956,N.-P. Lapierre / Armand-Frappier
+957,Bibliothèque et Complexe aquatique Rosemont (8e avenue / Rosemont)
+958,de l'Hôtel-de-Ville / du Mont-Royal
+959,du Bord-de-l'Eau / Lafontaine
+960,Sacré-Coeur / Gamache
+961,Boyer / Rosemont
+962,Métro Verdun (Willibrord / de Verdun)
+963,Pierre-de-Coubertin / de l'Assomption
+964,St-Antoine / Robert-Bourassa
+965,Roberval / Roland-Therrien
+966,Drolet / Beaubien
+967,Omer-Lavallée / du Midway
+968,St-Patrick / Thomas-Keefer
+969,Dufour / de Chateaubriand
+970,Michelet / Jean-Talon
+971,de l'Esplanade / Beaubien
+972,St-Charles / De Pierrefonds
+973,Murray / Woodward
+974,du Fer-à-Cheval / des Hauts-Bois
+975,Rousselot / Jarry
+976,Villeray / de Normanville
+977,Joseph-Manseau / René-Levesque
+978,Bloomfield / Bernard
+979,de St-Vallier / St-Zotique
+980,Place Rodolphe-Rousseau (Gohier / Édouard-Laurin)
+981,Durocher / Beaumont
+982,Hickson / Wellington
+983,Graham / Brookfield
+984,2e Avenue / Beaubien
+985,Hôpital Pierre-Boucher (Jacques-Cartier / Bourdon)
+986,Lahaie / Meunier
+987,Métro de Castelnau (de Castelnau / St-Dominique)
+988,McNamara / St-Martin O
+989,IUSMM (Georges-Villeneuve)
+990,Parc St-Roch (Ball / Durocher)
+991,Milton / St-Laurent
+992,Louvain / d'Iberville
+993,Dubois / Eadie
+994,Métro Radisson (Sherbrooke / des Groseilliers)
+995,St-Urbain / de la Gauchetière
+996,Métro Mont-Royal (Utilités publiques / Rivard)
+997,Alexandre-DeSève / Ontario
+998,St-Rémi / Ste-Émilie
+999,Fullum / de Rouen
+1000,Jeanne-Mance / Van Horne
+1001,Darlington / Ekers
+1002,Legendre / André-Grasset
+1003,Metcalfe / Ste-Catherine
+1004,Berri / Cherrier
+1005,Parc Sauvé (Balzac / de Bayonne)
+1006,St-Mathieu / Lincoln
+1007,Square-Victoria (Viger / du Square-Victoria)
+1008,Parc Grovehill (St-Antoine / Ivan-Franko)
+1009,des Rossignols / des Oiseaux
+1010,du Marché Central / Crémazie
+1011,de Gaspé / Jarry
+1012,Boileau / Lacordaire
+1013,de l'Esplanade  / Fairmount
+1014,Fullum / Gilford
+1015,Fullum / Ste-Catherine
+1016,St-Henri / St-Maurice
+1017,d'Anvers / Wiseman
+1018,Ste-Catherine / St-Dominique
+1019,Duchesneau / de Grosbois
+1020,Calixa-Lavallée / Rachel (ouest)
+1021,Christophe-Colomb / St-Joseph
+1022,Marché Maisonneuve (Ontario / Morgan)
+1023,Boyer / Jean-Talon
+1024,Ateliers municipaux de St-Laurent (Cavendish / Poirier)
+1025,Parc Reine-Élizabeth (Penniston / Crawford)
+1026,Rielle / Wellington
+1027,Bibliothèque de Verdun (Brown / Bannantyne)
+1028,Parc Henri-Julien (Legendre / Henri-Julien)
+1029,St-Laurent / Pl. du Marché
+1030,de la Vérendrye / Dollard
+1031,Prince-Arthur / St-Urbain
+1032,Monsabré / Boileau
+1033,15e avenue / Dandurand
+1034,Bassin olympique (Chemin du Chenal le Moyne)
+1035,Marché public de Longueuil (de la Savane)
+1036,Labonté / du Coteau-Rouge
+1037,Parc Olympique (Pie-IX / Sherbrooke)
+1038,Henri-Julien / Émile-Journault
+1039,Veilleux / Dunant
+1040,Jogues / Allard
+1041,Parc Dan-Hanganu (Elgar / de l'Île-des-Sœurs)
+1042,Ste-Croix / Tassé
+1043,St-Zotique / Clark
+1044,Regent / Windsor
+1045,Durocher / Bernard (nouvelle station)
+1046,Métro de la Concorde (Léo-Lacombe)
+1047,Labadie / du Parc
+1048,Ontario / Ville-Marie
+1049,Roy / Saint-Laurent
+1050,de Naples / St-Elzéar O
+1051,Place du Canada (Peel / des Canadiens-de-Montréal)
+1052,de St-Vallier / Rosemont
+1053,de l'Esplanade / Villeneuve
+1054,Parc du Château-Pierrefonds (de Pierrefonds / du Château-Pierrefonds)
+1055,Stinson / Montpellier
+1056,de la Gauchetière / de la Cathédrale
+1057,Ste-Catherine / Dézéry
+1058,de Marseille / de la Pépinière
+1059,Drolet / Jarry
+1060,Square du Petit-Prince (des Appalaches / Alexis-Nihon)
+1061,Terminus de bus SRB Pie-IX (de la Concorde E / Rose-de-Lima)
+1062,Métro Atwater (Atwater / Ste-Catherine )
