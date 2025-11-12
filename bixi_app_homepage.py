@@ -5,7 +5,7 @@ from PIL import Image
 import plotly.graph_objects as go
 import pydeck as pdk
 
-def generate_colour_dot_plot(df, station_name, weekday, bike_or_dock, mobile):
+def generate_colour_dot_plot(df, station_name, weekday, bike_or_dock):
     num_of_weeks_observed = len(df[df['weekday']==weekday][df[df['weekday']==weekday]['station']==station_name])
     ex_station = df[df['station'] == station_name]
     ex_station = ex_station[ex_station['weekday'] == weekday]
@@ -18,7 +18,7 @@ def generate_colour_dot_plot(df, station_name, weekday, bike_or_dock, mobile):
         if (v>=-0.5) & (v<=0.5):
             return "orange"
         elif v == 676767:
-            return 'white'
+            return '#E0E0E0'
         elif v > 0.5:
             return "green"
         else:
@@ -44,7 +44,7 @@ def generate_colour_dot_plot(df, station_name, weekday, bike_or_dock, mobile):
         y=[0]*len(colour_dot_plot_df),
         mode="markers+text",
         marker=dict(
-            size=14 if mobile else 18,
+            size=18,
             color=colour_dot_plot_df["color"],
             line=dict(width=0)
         ),
@@ -89,7 +89,7 @@ def generate_dist_plot(df, station_name, weekday, bike_or_dock, language):
     fig.add_trace(go.Scatter(
         x=ex_station['hour'], y=ex_station['rides_departure'],
         mode='lines',
-        name='Rides departure' if language=='EN' else "Nombre de départs",
+        name='Rides departure',
         fill='tozeroy',  # Fill to bottom
         line=dict(color='green' if bike_or_dock=='🅿️' else 'orange', width=2)
     ))
@@ -98,7 +98,7 @@ def generate_dist_plot(df, station_name, weekday, bike_or_dock, language):
     fig.add_trace(go.Scatter(
         x=ex_station['hour'], y=ex_station['rides_arrival'],
         mode='lines',
-        name='Rides arrival' if language=='EN' else "Nombre d'arrivées",
+        name='Rides arrival',
         fill='tozeroy',
         line=dict(color='orange' if bike_or_dock=='🅿️' else 'green', width=2)
     ))
@@ -110,9 +110,9 @@ def generate_dist_plot(df, station_name, weekday, bike_or_dock, language):
         yaxis_title="Ride Count" if language=='EN' else "Nombre de trajets",
         xaxis=dict(tickmode='linear', dtick=1),
         template='simple_white',
-        showlegend=True,
+        showlegend=False,
         height=300,
-        width=1200
+        width=1200,
     )
     return fig
 
@@ -129,7 +129,6 @@ st.set_page_config(
 # ======================================
 # 🌐 LANGUAGE SETUP & TABS SETUP
 # ======================================
-is_mobile = st.session_state.get("is_mobile", False)
 
 if "lang" not in st.session_state:
     st.session_state.lang = "FR"
@@ -150,7 +149,7 @@ texts = {
         'all' : 'All',
         'departure' : 'departures',
         'arrival' : 'arrivals',
-        'title_homepage' : 'Optimise your Bixi Rides and save time',
+        'title_homepage' : 'Optimise your Bixi Rides and Save Time',
         'intro_homepage' : "Discover when each Bixi station fills up or empties for any given day. Perfect for planning your rides or understanding the city’s biking rhythm.",
         'app_description_header' : "🚲 About the project:",
         'app_description' : """
@@ -182,6 +181,8 @@ texts = {
         'colour_plot_legend_red_bike_stations' : "🔴: Will be hard to find a bike",
         'colour_plot_legend_grey_stations' : "⚪: No data found for this time",
         'ditribution_plot_stations' : "Check Hourly Ride Distribution",
+        'departure_label' : 'Rides Departures',
+        'arrival_label' : 'Rides Arrivals',
         'more_stations_nearby_stations' : '**Find more stations nearby and check their availabilities!**',
         'title_bixi_wrap' : "Bixi Wrap for the year",
         'intro_bixi_wrap' : 'Explore the past year through data',
@@ -199,10 +200,10 @@ texts = {
         'arrival' : 'arrivées',
         'title_homepage' : "Planifie tes trajets en Bixi plus intelligement",
         'intro_homepage' : "Découvrez à quel moment les stations se remplissent ou se vident, selon les jours de la semaine et les heures, idéal pour optimiser vos trajets.",
-        'app_description_header' : "🚲 À propos de ce projet:",
+        'app_description_header' : "🚲 À propos du projet:",
         'app_description' : """
             Vous est-il déjà arrivé de courir après un Bixi un matin pressé… pour finalement ne trouver aucun vélo disponible?
-            Ou encore, après une longue balade, de tourner en rond à la recherche d’un dock libre pour le déposer?
+            Ou encore, après une longue balade, de tourner en rond à la recherche d'un point d'ancrage libre pour le déposer?
 
             Cette application est née de ce genre de frustrations. Elle vous permet d’explorer le rythme des stations Bixi à Montréal à partir des données historiques des deux dernières années.
             Les graphiques présentés illustrent des moyennes observées — et non des prédictions — pour révéler quand chaque station a tendance à se remplir ou se vider selon le jour et l’heure.
@@ -211,25 +212,27 @@ texts = {
         'author_description_header' : "👤 À propos de l'auteur:",
         "author_description" : """
             Je m’appelle Arthur Albo, étudiant en mathématiques et statistiques, passionné par la science des données. "
-            Ce projet est né à la fois d’un intérêt pour l’analyse de données et d’une expérience personnelle : en tant qu’utilisateur régulier de Bixi, j’ai souvent eu du mal à trouver un vélo ou une borne libre. 
+            Ce projet est né à la fois d’un intérêt pour l’analyse de données et d’une expérience personnelle : en tant qu’utilisateur régulier de Bixi, j’ai souvent eu du mal à trouver un vélo ou un point d'ancrage libre. 
             J’ai donc voulu créer un outil simple et visuel pour mieux comprendre le système et anticiper ses tendances.
             """,
-        'intro_stations' : "Découvrez le rythme de votre station et planifiez vos déplacements plus intelligemment",
+        'intro_stations' : "Découvrez le rythme de votre station",
         'station_selection_stations' : "Choisissez une station et commencez votre exploration",
         'day_selection_stations' : "Choisissez un jour de la semaine:",
         'list_of_day_selections_stations' : ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'],
-        'bike_dock_selection_stations' : "Vous cherchez un vélo ou un ancrage",
+        'bike_dock_selection_stations' : "Vous cherchez un vélo ou un point d'ancrage",
         'station_not_found_recently' : "Cette station n'a pas été utilisée depuis longtemps. Il est possible qu'elle a été enlevée, déplacée autre part ou renomée dans la base de donnée de Bixi.",
         'station_stats_departure_stations' : "La plupart des départs ont lieu à :",
         'station_stats_arrival_stations' : "La plupart des arrivées ont lieu à :",
-        'colour_plot_legend_green_dock_stations' : "🟢 : Bonnes chances de trouver un ancrage",
-        'colour_plot_legend_green_bike_stations' : "🟢 : Bonnes chances de trouver un vélo",
-        'colour_plot_legend_orange_dock_stations' : "🟠 : Possibilité de trouver un ancrage, sans garantie",
-        'colour_plot_legend_orange_bike_stations' : "🟠 : Possibilité de trouver un vélo, sans garantie",
-        'colour_plot_legend_red_dock_stations' : "🔴 : Difficile de trouver un ancrage",
+        'colour_plot_legend_green_dock_stations' : "🟢 : Bonne probabilité de trouver un point d'ancrage",
+        'colour_plot_legend_green_bike_stations' : "🟢 : Bonne probabilité de trouver un vélo",
+        'colour_plot_legend_orange_dock_stations' : "🟠 : Probable de trouver un point d'ancrage, sans garantie",
+        'colour_plot_legend_orange_bike_stations' : "🟠 : Probable de trouver un vélo, sans garantie",
+        'colour_plot_legend_red_dock_stations' : "🔴 : Difficile de trouver un point d'ancrage",
         'colour_plot_legend_red_bike_stations' : "🔴 : Difficile de trouver un vélo",
-        'colour_plot_legend_grey_stations' : "⚪: Aucune données trouvées",
+        'colour_plot_legend_grey_stations' : "⚪: Aucune donnée trouvée",
         'ditribution_plot_stations' : "Consultez la distribution horaire des trajets",
+        'departure_label' : 'Nombre de départs',
+        'arrival_label' : "Nombre d'arrivées",
         'more_stations_nearby_stations' : '**Trouvez d’autres stations à proximité et vérifiez leur disponibilité !**',
         'title_bixi_wrap' : "Rétrospective Bixi de l'année",
         'intro_bixi_wrap' : "Explorez l’année écoulée à travers les données",
@@ -392,7 +395,7 @@ with stations:
         st.markdown(T['colour_plot_legend_grey_stations'])
 
     # Colour dot plot
-    colour_dot_plot = generate_colour_dot_plot(df=station_time, station_name=station_selection, weekday=day_numeric, bike_or_dock=bike_dock_selection, mobile=is_mobile)
+    colour_dot_plot = generate_colour_dot_plot(df=station_time, station_name=station_selection, weekday=day_numeric, bike_or_dock=bike_dock_selection)
 
     # Display in Streamlit
     st.plotly_chart(colour_dot_plot, use_container_width=True, config=config, key='main')
@@ -403,6 +406,25 @@ with stations:
     distribution_plot = generate_dist_plot(station_time, station_selection, day_numeric, bike_dock_selection, st.session_state.lang)
 
     with st.expander(T['ditribution_plot_stations']):
+        color_departure = 'green' if bike_dock_selection=='🅿️' else 'orange'
+        label_departure = T['departure_label']
+        color_arrival = 'orange' if bike_dock_selection=='🅿️' else 'green'
+        label_arrival = T['arrival_label']
+        st.markdown(
+        f"""
+        <div style="display:flex; gap:30px; align-items:center; justify-content:center; margin-bottom:10px;">
+            <div style="display:flex; align-items:center; gap:6px;">
+                <div style="width:30px; height:4px; background-color:{color_departure};"></div>
+                <span>{label_departure}</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:6px;">
+                <div style="width:30px; height:4px; background-color:{color_arrival};"></div>
+                <span>{label_arrival}</span>
+            </div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
         st.plotly_chart(distribution_plot, use_container_width=False, config=config, key='dist_plot')
 
     # Finding Stations Nearby -------------------------------------
@@ -433,7 +455,7 @@ with stations:
         for nearby_station in range(len(nearby_stations_df)):
             station_selection = nearby_stations_df.iloc[nearby_station]['station']
             with st.expander(f"{station_selection}, {nearby_stations_df.iloc[nearby_station]['distance_m']} m ⚠️" if station_selection not in recent_station['station'].tolist() else f"{station_selection}, {nearby_stations_df.iloc[nearby_station]['distance_m']} m"):
-                colour_dot_plot = generate_colour_dot_plot(df=station_time, station_name=station_selection, weekday=day_numeric, bike_or_dock=bike_dock_selection, mobile=is_mobile)
+                colour_dot_plot = generate_colour_dot_plot(df=station_time, station_name=station_selection, weekday=day_numeric, bike_or_dock=bike_dock_selection)
                 # Display in Streamlit
                 st.plotly_chart(colour_dot_plot, use_container_width=True, config=config, key=f"colour_plot_{station_selection}")
                 if station_selection not in recent_station['station'].tolist():
@@ -470,19 +492,23 @@ with bixi_wrap:
             rank_station_list_lon_lat['lat'].append(station_stats['latitude'].loc[rank_station.index[rank]])
 
         rank_icon = ['🥇', '🥈', '🥉']
+
+        number_of_stations_per_neighbourhood = len(station_stats) if arrondissement_selection==T['all'] else len(station_stats[station_stats['arrondissement']==arrondissement_selection])
+
+        st.markdown(
+            f"<span style='color:#B0B0B0; font-weight:bold;'>{arrondissement_selection}</span> : "
+            f"<span style='color:#B0B0B0; font-weight:bold;'>{number_of_stations_per_neighbourhood} stations</span>",
+            unsafe_allow_html=True
+        )
         
         if bixi_wrap_bike_dock_selection=='🅿️':
             st.markdown(T['most_frequented_stations_arrival_bixi_wrap'])
             for rank in range(len(rank_station)):
                 st.markdown(f"{rank_icon[rank]} {rank_station_list[rank]} : {int(station_stats['rides_arrival'].loc[rank_station.index[rank]])} {T['arrival']}")
-            # st.markdown(f"🥈 {rank_station_list[1]} : {int(station_stats['rides_arrival'].loc[rank_station.index[1]])} {T['arrival']}")
-            # st.markdown(f"🥉 {rank_station_list[2]} : {int(station_stats['rides_arrival'].loc[rank_station.index[2]])} {T['arrival']}")
         else:
             st.markdown(T['most_frequented_stations_departure_bixi_wrap'])
             for rank in range(len(rank_station)):
                 st.markdown(f"{rank_icon[rank]} {rank_station_list[rank]} : {int(station_stats['rides_departure'].loc[rank_station.index[rank]])} {T['departure']}") 
-            # st.markdown(f"🥈 {rank_station_list[1]} : {int(station_stats['rides_departure'].loc[rank_station.index[1]])} {T['departure']}")
-            # st.markdown(f"🥉 {rank_station_list[2]} : {int(station_stats['rides_departure'].loc[rank_station.index[2]])} {T['departure']}")
 
     # Define PyDeck layer
     def get_map_attributes(row):

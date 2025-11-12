@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.6 (2025-11-12)
+
+- Wrote a ReadMe, added some corrections in the text of the app, added the stations count in the map.
+
 ## 0.0.5 (2025-11-10)
 
 - cleaned up some code to make it smoother, edited the texts, added the source for the data.
