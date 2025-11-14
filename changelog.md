@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.9 (2025-11-14)
+
+- Fixed bugs pertaining to the switch of languages
+
 ## 0.0.8 (2025-11-12)
 
 - Added a contact link to my LinkedIn

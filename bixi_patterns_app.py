@@ -136,6 +136,14 @@ st.set_page_config(
 if "lang" not in st.session_state:
     st.session_state.lang = "EN"
 
+language_homepage = st.segmented_control(
+        "", ['EN', 'FR'], selection_mode="single", default=st.session_state.lang
+    )
+if language_homepage=='EN':
+    st.session_state.lang = "EN"
+if language_homepage=='FR':
+    st.session_state.lang = "FR"
+
 texts = {
     'EN' : {
         'tab_home' : 'Home',
@@ -242,9 +250,6 @@ texts = {
 
 T = texts[st.session_state.lang]
 
-if "tab" not in st.session_state:
-    st.session_state.tab = 'tab_home'
-
 
 # ======================================
 # Reading Data
@@ -307,18 +312,9 @@ config = {
 # 🧭 HEADER
 # ======================================
 
-language_homepage = st.segmented_control(
-        "", ['EN', 'FR'], selection_mode="single", default=st.session_state.lang
-    )
-if language_homepage=='EN':
-    st.session_state.lang = "EN"
-if language_homepage=='FR':
-    st.session_state.lang = "FR"
-
 home_page, stations, bixi_wrap = st.tabs([T['tab_home'],T['tab_stations'], T['tab_bixi_wrap']], default=T['tab_home'])
 
 with home_page:
-    st.session_state.tab = 'tab_home'
     st.title(T['title_homepage'])
     st.subheader(T['intro_homepage'])
 
@@ -354,7 +350,6 @@ with home_page:
 
 ##########################################################################
 with stations:
-    st.session_state.tab = 'tab_stations'
     st.subheader(T['intro_stations'])
 
     station_selection_col, day_selection_col, bike_dock_selection_col = st.columns(spec=[0.40, 0.30, 0.30], gap='large')
@@ -478,7 +473,6 @@ with stations:
 
 #########################################
 with bixi_wrap:
-    st.session_state.tab = 'tab_bixi_wrap'
     st.header(T['title_bixi_wrap'])
     st.subheader(T['intro_bixi_wrap'])
 
