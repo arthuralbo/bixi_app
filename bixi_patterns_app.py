@@ -124,7 +124,7 @@ def generate_dist_plot(df, station_name, weekday, bike_or_dock, language):
 # 🏙️ APP CONFIG
 # ======================================
 st.set_page_config(
-    page_title="Bixi Station Usage Explorer – Montréal",
+    page_title="Bixi Patterns – Montréal",
     page_icon="🚲",
     layout="wide"
 )
